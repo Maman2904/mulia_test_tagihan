@@ -81,7 +81,7 @@
                                         <td><?php echo $record->email ?></td>
                                         <td class="text-center">
                                             <a class="btn btn-sm btn-info" href="<?php echo base_url() . 'vendor_/edit/' . $record->vendor_id; ?>" title="Edit"><i class="fa fa-pencil"></i></a>
-                                            <a class="btn btn-sm btn-danger deletevendor" href="#" data-vendor_id="<?php echo $record->vendor_id; ?>" title="Delete"><i class="fa fa-trash"></i></a>
+                                            <!-- <a class="btn btn-sm btn-danger deletevendor" href="#" data-vendor_id="<?php echo $record->vendor_id; ?>" title="Delete"><i class="fa fa-trash"></i></a> -->
                                         </td>
                                     </tr>
                             <?php

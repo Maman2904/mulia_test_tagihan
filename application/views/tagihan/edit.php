@@ -51,7 +51,7 @@
 
                                         <label for="total_tagihan">Lampiran</label>
 
-                                        <a href="data:application/pdf;base64,<?php echo base64_encode($decrypt); ?>" target="_blank">Lihat PDF</a>
+                                        <a href="data:application/pdf;base64,<?php echo base64_encode($decrypt); ?>" target="framename">Lihat PDF</a>
 
                                     </div>
                                 </div>
